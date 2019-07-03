@@ -32,6 +32,7 @@ module Ast_406 = Ast_406
 module Ast_407 = Ast_407
 module Ast_408 = Ast_408
 module Ast_409 = Ast_409
+module Ast_410 = Ast_410
 (*$*)
 
 (* A module for marshalling/unmarshalling arbitrary versions of Asts *)
@@ -56,6 +57,8 @@ module Migrate_407_408 = Migrate_parsetree_407_408
 module Migrate_408_407 = Migrate_parsetree_408_407
 module Migrate_408_409 = Migrate_parsetree_408_409
 module Migrate_409_408 = Migrate_parsetree_409_408
+module Migrate_409_410 = Migrate_parsetree_409_410
+module Migrate_410_409 = Migrate_parsetree_410_409
 (*$*)
 
 (* An abstraction of OCaml compiler versions *)
@@ -75,6 +78,7 @@ module OCaml_406 = Versions.OCaml_406
 module OCaml_407 = Versions.OCaml_407
 module OCaml_408 = Versions.OCaml_408
 module OCaml_409 = Versions.OCaml_409
+module OCaml_410 = Versions.OCaml_410
 (*$*)
 module OCaml_current = Versions.OCaml_current
 
